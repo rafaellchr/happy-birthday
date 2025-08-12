@@ -289,11 +289,18 @@ body {
   }
 
   .wish h5 {
-    font-size: 1.4rem;
+    font-size: 0.8rem;
   }
 
   .nine p {
     font-size: 1.5rem;
     font-weight: lighter;
+  }
+
+  img[data-node-name="imagePath"] {
+    max-width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
   }
 }
