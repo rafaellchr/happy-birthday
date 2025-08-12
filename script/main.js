@@ -220,11 +220,7 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-   .from(".hat", 0.5, {
-  rotation: -180,
-  opacity: 0,
-  y: -50 // efek naik sedikit, bukan dari bawah banget
-})
+  
     .staggerFrom(
       ".wish-hbd span",
       0.7,
